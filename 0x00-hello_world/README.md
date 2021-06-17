@@ -6,3 +6,4 @@ file 3-name contains a script that compiles a C file and creates an executable n
 file 4-puts.c contains a C program that prints exactly "Programming is like building a multilingual puzzle"
 file 5-printf.c contains a C program that prints exactly with proper grammar, but the outcome is a piece of art
 file 6-size.c contains a C program that prints the size of various types on the computer it is compiled and run on
+file 100-intel has a script that generates the assembly code (Intel syntax) of a C code and save it in an output file
