@@ -1,3 +1,4 @@
 #!/bin/bash
 file 0-Preprocessor contains a script that runs a C file through the preprocessor and save the result into another file
 file 1-compiler contains a script that compiles a C file but does not link
+file 2-assembler contains a script that generates the assembly code of a C code and save it in an output file
