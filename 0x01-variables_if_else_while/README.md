@@ -10,3 +10,4 @@ File 5-print_numbers.c has a program that prints all single digit numbers of bas
 File 6-print_numberz.c has a program that prints all single digit numbers of base 10 starting from 0.
 File 7-print_tebahpla.c has a program that prints the lowercase alphabet in reverse.
 File 8-print_base16.c contains a program that prints all the numbers of base 16 in lowercase.
+FIle 9-print_comb.c contains  a program that prints all possible combinations of single-digit numbers.
