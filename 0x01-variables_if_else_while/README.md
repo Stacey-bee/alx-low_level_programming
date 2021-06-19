@@ -7,3 +7,4 @@ File 2-print_alphabet.c has a program that prints the alphabet in lowercase.
 File 3-print_alphabets.c has a program that prints the alphabet in lowercase, and then in uppercase.
 File 4-print_alphabt.c contains a program that prints the alphabet in lowercase.
 File 5-print_numbers.c has a program that prints all single digit numbers of base 10 starting from 0.
+file 6-print_numberz.c has a program that prints all single digit numbers of base 10 starting from 0.
