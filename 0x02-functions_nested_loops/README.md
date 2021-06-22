@@ -12,3 +12,4 @@ File 8-24_hours.c includes a function that prints every minute of the day of Jac
 File 9-times_table.c includes a function that prints the 9 times table, starting with 0.
 FIle 11-print_to_98.c includes a function that prints all natural numbers from n to 98.
 FIle 100-times_table.c includes a function that prints the n times table, starting with 0.
+File 101-natural.c includes a program that computes and prints the sum of all the multiples of 3 or 5 below 1024 (excluded).
