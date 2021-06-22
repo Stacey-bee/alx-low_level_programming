@@ -15,3 +15,4 @@ FIle 100-times_table.c includes a function that prints the n times table, starti
 File 101-natural.c includes a program that computes and prints the sum of all the multiples of 3 or 5 below 1024 (excluded).
 File 102-fibonacci.c includes a program that prints the first 50 Fibonacci numbers, starting with 1 and 2.
 File 103-fibonacci.c includes a program that finds and prints the sum of the even-valued terms.
+File 104-fibonacci.c includes a program that finds and prints the first 98 Fibonacci numbers, starting with 1 and 2.
