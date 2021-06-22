@@ -6,3 +6,4 @@ File 2-print_alphabet_x10.c includes a function that prints 10 times the alphabe
 File 3-islower.c includes a function that checks for lowercase character.
 File 4-isalpha.c includes a function that checks for alphabetic character.
 FIle 5-sign.c includes a function that prints the sign of a number.
+File 6-abs.c includes a function that computes the absolute value of an integer.
