@@ -12,4 +12,5 @@ file 6-print_line.c includes a function that draws a straight line in the termin
 file 7-print_diagonal.c includes a function that draws a diagonal line on the terminal.
 file 8-print_square.c includes a function that prints a square.
 file 9-fizz_buzz.c includes a a program that prints the numbers from 1 to 100.
-file 10-print_triangle.c a function that prints a triangle.
+file 10-print_triangle.c includes a function that prints a triangle.
+file 100-prime_factor.c includes a a program that finds and prints the largest prime factor of the number 612852475143.
