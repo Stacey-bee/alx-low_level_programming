@@ -8,3 +8,4 @@ file 2-mul.c includes a function that multiplies two integers
 file 3-print_numbers.c includes a function that prints the numbers, from 0 to 9
 file 4-print_most_numbers.c includes a  function that prints the numbers, from 0 to 9
 file 5-more_numbers.c includes a  function that prints 10 times the numbers, from 0 to 14
+file 6-print_line.c includes a function that draws a straight line in the terminal
