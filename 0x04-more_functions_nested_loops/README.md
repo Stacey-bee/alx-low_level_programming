@@ -11,3 +11,4 @@ file 5-more_numbers.c includes a  function that prints 10 times the numbers, fro
 file 6-print_line.c includes a function that draws a straight line in the terminal
 file 7-print_diagonal.c includes a function that draws a diagonal line on the terminal.
 file 8-print_square.c includes a function that prints a square.
+file 9-fizz_buzz.c includes a a program that prints the numbers from 1 to 100.
