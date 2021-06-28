@@ -9,3 +9,4 @@ File 3-puts.c includes a function that prints a string, followed by a new line, 
 File 4-print_rev.c includes a function that prints a string, in reverse.
 File 5-rev_string.c includes a function that reverses a string.
 File 6-puts2.c includes a function that prints every other character of a string, starting with the first character.
+File 7-puts_half.c includes a function that prints half of a string, followed by a new line.
