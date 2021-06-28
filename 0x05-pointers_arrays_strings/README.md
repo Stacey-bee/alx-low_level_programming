@@ -5,3 +5,4 @@ This README.md file contains a description of the programs, in each of the files
 File 0-reset_to_98.c includes a a function that takes a pointer to an int as parameter and updates the value it points to to 98.
 File 1-swap.c includes a function that swaps the values of two integers.
 File 2-strlen.c includes a function that returns the length of a string.
+File 3-puts.c includes a function that prints a string, followed by a new line, to stdout.
