@@ -12,5 +12,5 @@ File 6-puts2.c includes a function that prints every other character of a string
 File 7-puts_half.c includes a function that prints half of a string, followed by a new line.
 File 8-print_array.c includes  a function that prints n elements of an array of integers, followed by a new line.
 File 9-strcpy.c includes a function that copies the string pointed to by src, including the terminating null byte (\0), to the buffer pointed to by dest.
-File 100-atoi.c includes a  function that convert a string to an integer.
-
+File 100-atoi.c includes a function that convert a string to an integer.
+File 101-keygen.c includes a a program that generates random valid passwords for the program 101-crackme. 
