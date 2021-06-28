@@ -7,3 +7,4 @@ File 1-swap.c includes a function that swaps the values of two integers.
 File 2-strlen.c includes a function that returns the length of a string.
 File 3-puts.c includes a function that prints a string, followed by a new line, to stdout.
 File 4-print_rev.c includes a function that prints a string, in reverse.
+File 5-rev_string.c includes a  a function that reverses a string.
