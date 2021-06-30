@@ -4,3 +4,4 @@ This README.md file contains a description of each of the files in the 0x06-poin
 
 File 0-strcat.c includes a function that concatenates two strings.
 File 1-strncat.c includes another function that concatenates two strings.
+File 2-strncpy.c includes a function that copies a string.
