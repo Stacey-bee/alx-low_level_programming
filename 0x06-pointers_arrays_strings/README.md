@@ -12,3 +12,4 @@ File 6-cap_string.c includes a function that capitalizes all words of a string.
 File 7-leet.c includes a function that encodes a string into 1337.
 File 100-rot13.c includes a function that encodes a string using rot13.
 File 101-print_number.c includes a function that prints an integer.
+FIle 102-magic.c includes a program that adds one line to the code so that it prints a[2] = 98.
