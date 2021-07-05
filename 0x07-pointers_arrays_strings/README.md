@@ -7,3 +7,4 @@ File 0-memset.c has a function that fills memory with a constant byte.
 File 1-memcpy.c has a function that copies memory area.
 FIle 2-strchr.c has a function that locates a character in a string.
 File 3-strspn.c has a function that gets the length of a prefix substring.
+File 4-strpbrk.c has  a function that searches a string for any of a set of bytes.
