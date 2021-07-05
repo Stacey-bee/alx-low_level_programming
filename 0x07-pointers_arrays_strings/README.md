@@ -5,3 +5,4 @@ This README.md contains a description of each of the files in the 0x07-pointers_
 File Holberton.h includes prototypes of all my functions and the prototype of the function _putchar.
 File 0-memset.c has a function that fills memory with a constant byte.
 File 1-memcpy.c has a function that copies memory area.
+FIle 2-strchr.c has a function that locates a character in a string.
