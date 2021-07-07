@@ -9,3 +9,4 @@ File 3-factorial.c contains a function that returns the factorial of a given num
 File 4-pow_recursion.c contains a function that returns the value of x raised to the power of y
 File 5-sqrt_recursion.c contains a function that returns the natural square root of a number.
 File 6-is_prime_number.c contains a function that returns 1 if the input integer is a prime number, otherwise return 0.
+File 100-is_palindrome.c contains a function that returns 1 if a string is a palindrome and 0 if not.
