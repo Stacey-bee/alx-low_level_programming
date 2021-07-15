@@ -1,57 +1,49 @@
-
-#include <stdlib.h>
 #include "holberton.h"
 
 /**
- * _strlen - calculate and return string length
- * @string: string
- * Return: string length
+ * string_nconcat - concatenate two strings
+ * @s1: the first string
+ * @s2: the second string
+ * @n: the maximum number of bytes to use from s2
+ *
+ * Description: Copy s1 followed by the first n bytes of s2 into dynamically
+ * allocated memory, and append a terminating null-byte. If n is greater than
+ * or equal to the length of the string s2, use only the bytes from s2 up to
+ * it's terminating null-byte. Treat NULL as an an empty string.
+ *
+ * Return: If memory allocation fails, return NULL. Otherwise, return a pointer
+ * to the first character of the new string.
  */
-
-int _strlen(char *string)
-{
-	int i;
-
-	for (i = 0; string[i] != '\0'; i++)
-		;
-	return (i);
-}
-
-/**
- * string_nconcat - concatenate s1 and n bytes of s2; return ptr to string
- * @s1: string 1
- * @s2: string 2
- * @n: n bytes to concat from string 2
- * Return: pointer to concatenated string
- */
-
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-	char *ptr;
-	int num, len, i, j;
+	char *cat;
+	unsigned int s1_len = 0;
+	unsigned int s2_len = 0;
 
-	num = n;
+	if (s1 != NULL)
+	{
+		while (s1[s1_len])
+			++s1_len;
+	}
 
-	if (s1 == NULL) /* account for NULL strings */
-		s1 = "";
-	if (s2 == NULL)
-		s2 = "";
-	if (num < 0) /* account for negative n bytes */
+	if (s2 != NULL)
+	{
+		while (s2_len < n && s2[s2_len])
+			++s2_len;
+	}
+
+	cat = malloc(sizeof(char) * s1_len + s2_len + 1);
+	if (cat == NULL)
 		return (NULL);
-	if (num >= _strlen(s2)) /* account for n too big */
-		num = _strlen(s2);
 
-	len = _strlen(s1) + num + 1; /* +1 to account for null pointer */
+	for (n = 0; n < s1_len; ++n, ++cat)
+		*cat = s1[n];
 
-	ptr = malloc(sizeof(*ptr) * len); /* malloc and check for error */
-	if (ptr == NULL)
-		return (NULL);
+	for (n = 0; n < s2_len; ++n, ++cat)
+		*cat = s2[n];
 
-	for (i = 0; s1[i] != '\0'; i++) /* concat */
-		ptr[i] = s1[i];
-	for (j = 0; j < num; j++)
-		ptr[i + j] = s2[j];
-	ptr[i + j] = '\0';
+	*cat = '\0';
 
-	return (ptr);
+	return (cat - s1_len - s2_len);
 }
+
