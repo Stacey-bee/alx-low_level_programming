@@ -9,3 +9,4 @@ File 3-calc.h is a header file containing all function prototypes and data struc
 File 3-op_functions.c has the 5 fuunctions used in the program (question 3).
 File 3-get_op_func.c contains a function that selects the correct function to perform the operation asked by the user(question 3).
 File 3-main.c contains only the main function.
+File 100-main_opcodes.c has  a program that prints the opcodes of its own main function.
