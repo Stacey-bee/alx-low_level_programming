@@ -1,8 +1,12 @@
 #include <stdio.h>
 
-/*main - using puts to print a string followed by a new line*/
+/**
+ * main - prints a string
+ * Description: using the puts function to print a string followed by new line
+ * Return: 0
+ */
 
-int main()
+int main(void)
 {
 puts("\"Programming is like building a multilingual puzzle");
 return (0);
