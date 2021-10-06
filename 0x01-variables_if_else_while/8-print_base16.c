@@ -8,12 +8,11 @@
 
 int main(void)
 {
-int num = 48;
-int ch = 'a';
-while (num <= 58)
+int num;
+int ch;
+for (num = 48; num < 58; num++)
 {
 putchar(num);
-num++;
 }
 for (ch = 'a'; ch <= 'f'; ch++)
 {
