@@ -21,7 +21,7 @@ if (num3 > num2 && num2 > num1)
 putchar(num1);
 putchar(num2);
 putchar(num3);
-if (num3 != 57 || num2 != 56 || num3 != 55)
+if (num3 != 57 || num2 != 56 || num1 != 55)
 {
 putchar(',');
 putchar(' ');
