@@ -1,22 +1,25 @@
 #include <stdio.h>
-
 /**
  * main - prints all possible different combinations of two digits
- * Return: ALways 0 (Success)
+ * numbers are separated by ,, followed by a space
+ * The two digits are different
+ * Prints only the smallest combination of two digits
+ * Numbers should be printed in ascending order, with two digits
+ * Return: 0
  */
+
 int main(void)
 {
-int n, m;
-
-for (n = 48; n <= 56; n++)
+int num1, num2;
+for (num1 = 48; num1 <= 56; num1++)
 {
-for (m = 49; m <= 57; m++)
+for (num2 = 49; num2 <= 57; num2++)
 {
-if (m > n)
+if (num2 > num1)
 {
-putchar(n);
-putchar(m);
-if (n != 56 || m != 57)
+putchar(num1);
+putchar(num2);
+if (num1 != 56 || num2 != 57)
 {
 putchar(',');
 putchar(' ');
