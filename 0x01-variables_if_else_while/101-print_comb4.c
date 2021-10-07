@@ -1,25 +1,27 @@
 #include <stdio.h>
-
 /**
  * main - prints all possible different combinations of three digits
- * Return: Always 0 (Success)
+ * Numbers must by separated by a comma followed by a space
+ * the three digits are different
+ * numbers are printed in ascending order
+ * Return: 0
  */
+
 int main(void)
 {
-int n, m, l;
-
-for (n = 48; n < 58; n++)
+int num1, num2, num3;
+for (num1 = 48; num1 <= 55; num1++)
 {
-for (m = 49; m < 58; m++)
+for (num2 = 47; num2 <= 56; num2++)
 {
-for (l = 50; l < 58; l++)
+for (num3 = 46; num3 <= 57; num3++)
 {
-if (l > m && m > n)
+if (num3 > num2 && num2 > num1)
 {
-putchar(n);
-putchar(m);
-putchar(l);
-if (n != 55 || m != 56)
+putchar(num1);
+putchar(num2);
+putchar(num3);
+if (num3 != 57 || num2 != 56 || num3 != 55)
 {
 putchar(',');
 putchar(' ');
