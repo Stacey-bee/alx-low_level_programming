@@ -1,1 +1,1 @@
-# A repo for all C programming tasks and exercises
+# A repo for low-level programming
